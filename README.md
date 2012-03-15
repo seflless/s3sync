@@ -14,7 +14,7 @@
 
 ## Authors
 
-  - Francois Laberge ([brassmonkey](http://github.com/brassmonkey))
+  - Francois Laberge ([@francoislaberge](http://twitter.com/francoislaberge))
 
 ## Installation
 
@@ -25,7 +25,7 @@
 
 (The MIT License)
 
-Copyright (c) 2010 LearnBoost &lt;dev@learnboost.com&gt;
+Copyright (c) 2012 Francois Laberge &lt;francoislaberge@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
