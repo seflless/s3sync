@@ -1,0 +1,13 @@
+{
+  "name": "s3sync",
+  "description": "Update S3 buckets from git commit diffs (rsync style).",
+  "keywords": ["aws", "amazon", "s3", "rsync", "git"],
+  "version": "0.0.1",
+  "author": "Francois Laberge <francoislaberge@gmail.com>",
+  "main": "./index.js",
+  "engines": { "node": ">= 0.2.0" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LearnBoost/knox.git"
+  }
+}
