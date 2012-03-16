@@ -11,6 +11,12 @@
   - A .json file of the history is created/updated.
   - Rollback would be possible. (Todo: If demand is there.)
 
+## TODO
+
+  - Support file deletes and renames (Need to do asap. Doesn't really work without it).
+  - Rollback would be possible (If demand is there).
+  - Look into doing file level diffs (If supported).
+  - Make sure that uncommited files aren't synced.
 
 ## Authors
 
