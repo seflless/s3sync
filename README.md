@@ -1,7 +1,7 @@
 
 # s3sync
 
- Update S3 buckets from git commit diffs (rsync style).
+ Sync S3 buckets from git commit diffs (rsync style).
 
 ## Features
 
@@ -16,7 +16,14 @@
   - Support file deletes and renames (Need to do asap. Doesn't really work without it).
   - Rollback would be possible (If demand is there).
   - Look into doing file level diffs (If supported).
-  - Make sure that uncommited files aren't synced.
+  - I suspect that empty folders will be left behind, need to figure that one out.
+  - Can we detect file moves and then do file move REST calls to S3? 
+      - Major traffic reduction on large file location refactoring commits. 
+      - Probably doesn't matter in practice, updates being much more common than moves.
+      - Currently will do a delete and then add(full file upload) to S3.
+  - Maybe add the ability to return json of changes. Option to not actually do the sync.
+      - Could be used as a utility for making a web service that returns file changes between commits.
+          - Could do things like have local storage do incremental updates of change files. 
 
 ## Authors
 

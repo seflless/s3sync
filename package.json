@@ -2,7 +2,7 @@
   "name": "s3sync",
   "description": "Update S3 buckets from git commit diffs (rsync style).",
   "keywords": ["aws", "amazon", "s3", "rsync", "git"],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "main": "./index.js",
   "dependencies": {
