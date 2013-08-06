@@ -6,7 +6,7 @@
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "main": "./index.js",
   "dependencies": {
-    "knox":      "0.7.1"
+    "knox":      "0.8.6"
   },
   "engines": { "node": ">= 0.2.0" },
   "repository": {
